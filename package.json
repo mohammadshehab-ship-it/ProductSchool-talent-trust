@@ -3,16 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<mohammadshehab-ship-it>.github.io/talent-trust/",
+  "homepage": "https://<mohammadshehab-ship-it>.github.io/ProductSchool-talent-trust/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
     "autoprefixer": "^10.5.0",
     "gh-pages": "^6.3.0",
     "lucide-react": "^1.8.0",
